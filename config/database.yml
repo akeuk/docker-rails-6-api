@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: docker_rails_6_api_development
+  database: app_development
 
 test:
   <<: *default
-  database: docker_rails_6_api_test
+  database: app_test
 
 production:
   <<: *default
-  database: docker_rails_6_api_production
+  database: app_production
